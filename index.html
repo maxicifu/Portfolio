@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO   -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Maxi</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="#inicio" onclick="seleccionar()">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="#sobremi" onclick="seleccionar()">SOBRE MI</a>
+                    </li>
+                    <li>
+                        <a href="#skills" onclick="seleccionar()">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="#contacto" onclick="seleccionar()">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO   -->
+    <section class="inicio" id="inicio" >
+        <div class="contenido-banner">
+           <div class="contenedor-img">
+                <img src="img/perfil1.jpg" alt="">
+           </div>     
+           <h1>MAXIMILIANO CIFUENTES</h1>
+           <h2>Tec. en Mecatronica</h2>
+           <h2>Lic. Automatizacion y control</h2>
+           <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+           </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+           <h2>Sobre mi</h2>
+           <p><span>Hola, soy Maxi Cifuentes </span>Me destaco por mi responsabilidad y habilidades como planificador enfocado en el crecimiento constante. 
+            Tengo interés por desarrollarme en entornos industriales y en procesos de control. Avanzo con una mentalidad abierta y proactiva. Se trabajar en equipo y bajo presión.</p>     
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Direccion:</strong>
+                            Belgrano 2040, Colinas de Velez Sarfield
+                        </li>
+                        <li>
+                            <strong>Provincia:</strong>
+                            Cordoba, Capital
+                        </li>
+                        <li>
+                            <strong>E-mail:</strong>
+                            maxicifuentes01@gmail.com
+                        </li>
+                        <li>
+                            <strong>Telefono:</strong>
+                            +543517882021
+                        </li>
+                        <li>
+                            <strong>Fecha de nacimiento:</strong>
+                            01/06/1998
+                        </li>              
+                    </ul>
+                </div>
+                
+                <!--  intereses -->
+                
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>                            
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>                            
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJES</span>                            
+                        </div>                        
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>                            
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>                            
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTO</span>                            
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>                            
+                        </div>
+                    </div>
+                </div>                
+            </div>
+                    
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>   
+                <span class="overlay"></span>             
+            </button>    
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">                
+                <!-- Conocimientos -->
+                <div class="col">
+                    <h3>Conocimientos</h3>  
+                    <div class="skill">
+                        <span>PLC Ladder</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>                        
+                    </div>  
+                    <div class="skill">
+                        <span>AutoCAD</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="skill">
+                        <span>EPLAN</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>                        
+                    </div>                                  
+                    <div class="skill">
+                        <span>C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>                        
+                    </div>                    
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>10%</span>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <!-- Habilidades -->
+                <div class="col">
+                    <h3>Habilidades</h3>  
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>                        
+                    </div>  
+                    <div class="skill">
+                        <span>Rapido aprendizaje</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="skill">
+                        <span>Analitico</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>                        
+                    </div>      
+                    <div class="skill">
+                        <span>Proactivo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>                        
+                    </div>          
+                    <div class="skill">
+                        <span>Autodidacta</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>                        
+                    </div>                                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section class="curriculum" id="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Formacion</h3>
+                    <div class="item izq">
+                        <h4>Licenciatura en Automatizacion y control</h4>
+                        <span class="casa">Universidad Tecnologica Nacional</span>  
+                        <span class="fecha">(2022 - Finalizando)</span>                      
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">                        
+                        <h4>Tecnicatura Superior en Mecatronica</h4>
+                        <span class="casa">Universidad Tecnologica Nacional</span>  
+                        <span class="fecha">(2017 - 2020)</span>  
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">                        
+                        <h4>Desarrollador front end </h4>
+                        <span class="casa">Argentina Programa 4.0</span>  
+                        <span class="fecha">(2023)</span>  
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">                        
+                        <h4>Manipulacion de datos con Python</h4>
+                        <span class="casa">Argentina Programa 4.0</span>  
+                        <span class="fecha">(2023)</span>  
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">                        
+                        <h4>Programacion cnc</h4>
+                        <span class="casa">Instituto SMATA, Provincia de Cordoba</span>  
+                        <span class="fecha">(2022)</span>  
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Tremun - Gran fuego</h4>
+                        <span class="casa">Operario programador cnc</span>  
+                        <span class="fecha">(jun 2022 - dic 2022)</span> 
+                        <p>Trabaje en el área de producción de fresadora donde realizaba programación y diseño 2D.</p>         
+                        <p>También gestionaba en Trello a pedido de producción de tablas y generaba informes.</p>       
+                        <p>Dr. Faustino Tronge 1080, X5003GWH Córdoba</p>   
+                        <p>Tel. (+54)0351 6136052</p>  
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Electricidad domiciliaria</h4>
+                        <span class="casa">Electricista</span>  
+                        <span class="fecha">(Esporadicamente)</span> 
+                        <p>Realicé trabajos de electricidad domiciliaria de manera independiente.</p>         
+                         
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>                    
+                </div>   
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">    
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/PT-TbXj1K-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!--<img src="img/p1.jpg" alt="">-->
+                    <div class="overlay">
+                        <h3>Proceso de fabricacion</h3>
+                        <p>Maquina Router CNC STK</p>
+                    </div>                    
+                </div>             
+                <div class="proyecto">    
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/L9-7Al3NuHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="overlay">
+                        <h3>Sometiendo sensor de temperatura NTC</h3>
+                        <p>Sensor NTC y ESP32</p>
+                    </div>                    
+                </div>          
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Maximiliano">
+                    <input type="text" placeholder="3517882021">
+                    <input type="text" placeholder="maxicifuentes01@gmail.com">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>                        
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="" width="600px" height="600px">                    
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Belgrano 2040, Ciudad de Cordoba
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Llamar: 3517882021
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                E-mail: aumac.smart@gmail.com
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+       </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
