@@ -290,13 +290,13 @@ html{
     0%{width: 0;}
     100%{width: 60%}
 }
-.skills .skill .eplan{
+.skills .skill .fusion{
     width: 0%;
-    animation: 2s eplan forwards;
+    animation: 2s fusion forwards;
 }
-@keyframes eplan {
+@keyframes fusion {
     0%{width: 0;}
-    100%{width: 30%}
+    100%{width: 70%}
 }
 .skills .skill .cplusplus{
     width: 0%;

@@ -26,7 +26,7 @@ function efectoHabilidades(){
         let habilidades = document.getElementsByClassName("progreso");
         habilidades[0].classList.add("plc");
         habilidades[1].classList.add("autocad");
-        habilidades[2].classList.add("eplan");
+        habilidades[2].classList.add("fusion");
         habilidades[3].classList.add("cplusplus");
         habilidades[4].classList.add("htmlcss");
         habilidades[5].classList.add("javascript");
